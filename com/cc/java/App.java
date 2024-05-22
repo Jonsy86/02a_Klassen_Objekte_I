@@ -4,7 +4,6 @@ public class App {
     
     public static void main(String[] args) {
 
-
         // Cat --> Referenztyp (Klasse aus dem das Objekt entsteht)
         // cat1 --> Referenzvariable (Adresse des Objekts im Ram)
 
@@ -18,24 +17,12 @@ public class App {
          System.out.println("Blick von aussen " + cat2);
         cat2.sayHi();
 
+   }
 
+   void output(String outputStr){
+    System.out.println(outputStr);
 
-
-
-
-
-         // zwei Objekte erzeugen, keine Kommunikation
-        // System.out.println(new Cat());
-       // System.out.println(new Cat());
-        
-        
-       
-
-
-
-    }
-
-   
+   }
 
 }
 
