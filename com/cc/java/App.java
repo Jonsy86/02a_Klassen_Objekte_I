@@ -9,19 +9,21 @@ public class App {
         // cat1 --> Referenzvariable (Adresse des Objekts im Ram)
 
          Cat cat1 = new Cat();  // Instanziierung >> Objekt
-         System.out.println(cat1);  // Adresse des Objekts
+         System.out.println("Blick von aussen " + cat1);  // Adresse des Objekts
         cat1.sayHi();
+
+        System.out.println("------------------------------");
 
          Cat cat2 = new Cat();
-         System.out.println(cat2);
-        cat1.sayHi();
+         System.out.println("Blick von aussen " + cat2);
+        cat2.sayHi();
 
 
 
 
 
 
-        
+
          // zwei Objekte erzeugen, keine Kommunikation
         // System.out.println(new Cat());
        // System.out.println(new Cat());
